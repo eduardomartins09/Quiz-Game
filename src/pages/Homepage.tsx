@@ -128,7 +128,7 @@ const Homepage = () => {
       )}
 
       {!gameOver && !loading && userAnswers.length === number + 1 && number !== TOTAL_QUESTIONS - 1 ? (
-        <button onClick={nextQuestion} style={{ marginTop: "1rem" }}>
+        <button onClick={nextQuestion} style={{ marginTop: "1.1rem" }}>
           Next Question
         </button>
       ) :null}
